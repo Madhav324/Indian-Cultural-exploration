@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preserving Indian Heritage Through Innovative Gaming Solutions</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .video-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+/* Style for the navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out logo and nav links */
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: transparent; /* Transparent background */
+    border-bottom: 1px solid #ddd; /* Optional: Border for separation */
+}
+
+/* Style for the logo section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px; /* Space between image and text */
+}
+
+h1 {
+    font-size: 24px; /* Adjust as needed */
+    color: white; /* Text color for the logo */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for navigation links */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Text color */
+    font-size: 16px; /* Font size */
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    color: #0056b3; /* Darker text color on hover */
+}
+
+.nav-links i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+        .cta-button {
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding to make it a rectangle */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff; /* Text color */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #007bff; /* Border color to match text color */
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+}
+
+.cta-button:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+.cta-button i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <!-- Video Background -->
+        <video autoplay muted loop id="background-video">
+            <source src="Green.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        
+        <!-- Overlay Content -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <!-- Logo Image -->
+                    <img src="logo.png" alt="Cultural Conquerors Logo" class="logo-img">
+                    <!-- Alternative Text Logo -->
+                    <h1>Cultural Conquerors</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#problem"><i class="fas fa-info-circle"></i>Problem</a></li>
+                    <li><a href="https://docs.google.com/presentation/d/1Mwl7cS1UrMTCEYGm7hjjwFs9SC0rC__X/edit?usp=sharing&ouid=110892336074015246034&rtpof=true&sd=true"><i class="fas fa-lightbulb"></i>Our Solution</a></li>
+                    <li><a href="https://docs.google.com/presentation/d/1xYubByKKV2MFlxlYT61dVq1gCX91upkR/edit?usp=sharing&ouid=110892336074015246034&rtpof=true&sd=true"><i class="fas fa-gamepad"></i>Online Product</a></li>
+                    <li><a href="monopoly.jpg"><i class="fas fa-puzzle-piece"></i>Offline Product</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Learn More Icon -->
+        <div class="learn-more">
+            <a href="index.html" class="cta-button"><i class="fas fa-info-circle"></i> Learn More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cultural Conquerors | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
